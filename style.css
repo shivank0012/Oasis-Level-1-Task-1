@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+
+body {
+  background-image: url(bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 5%;
+  font-family: "Montserrat", "Verdana";
+}
+
+nav {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+nav .brand-image {
+  flex: 1;
+  margin: 30px auto;
+}
+
+nav .nav-items {
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* to align elements vertically */
+  justify-content: space-between; /* to align elements horizontally */
+}
+
+nav .nav-menu-icon {
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.nav-logo {
+  display: block;
+}
+
+.logo {
+  height: 120px;
+  margin-left: 40px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: #8922b4;
+  padding: 10px 25px;
+  font-size: 25px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  border-radius: 20px;
+  transition: font-weight 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 30px 30px #3a3838 inset;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.col {
+  display: flex;
+  flex: 1;
+  min-height: 100%;
+}
+
+.col-left {
+  color: #e5e5e5;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.col-left p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: -8px;
+}
+
+.col-left h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.col-left [logo] {
+  display: none;
+}
+
+.col-left [lco] {
+  display: none;
+}
+
+.col-left a {
+  display: block;
+}
+
+.google-play-image {
+  height: 120px;
+}
+
+.phone-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 75vh;
+}
